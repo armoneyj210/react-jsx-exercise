@@ -3,7 +3,7 @@ import React, { Component } from "react";
 export default class Description extends Component {
   render() {
     return (
-      <div className="description">
+      <div id="description" className="description">
         <img src="/static/media/pizzaoven.4a38e9dc.jpg" alt="pizza oven" />
         <p>
           Deep v jean shorts tumeric lo-fi. Pabst salvia hammock, neutra before
