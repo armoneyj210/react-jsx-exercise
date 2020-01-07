@@ -1,7 +1,12 @@
 import React, { Component } from "react";
-
+import pizzaData from "../pizzaData.js";
+const pizza = pizzaData;
 export default class MenuItem extends Component {
   render() {
-    return <div></div>;
+    <div>
+      {pizza.map((spec, i) => {
+        return <pizzaData spec={spec} key={i} />;
+      })}
+    </div>;
   }
 }
