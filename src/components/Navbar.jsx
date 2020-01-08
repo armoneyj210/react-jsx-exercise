@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 export default class Navbar extends Component {
-  render() {
+  render = () => {
     return (
       <div className="navbar">
         <a href="#description">OurStory</a>
@@ -11,5 +11,5 @@ export default class Navbar extends Component {
         <a href="#contact">Contact</a>
       </div>
     );
-  }
+  };
 }

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 export default class Contact extends Component {
-  render() {
+  render = () => {
     return (
       <div className="contact">
         <h1>Store Hours</h1>
@@ -21,5 +21,5 @@ export default class Contact extends Component {
         </div>
       </div>
     );
-  }
+  };
 }

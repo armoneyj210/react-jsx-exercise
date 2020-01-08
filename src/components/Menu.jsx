@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import pizzaData from "../pizzaData";
 import MenuItem from "./MenuItem";
 export default class Menu extends Component {
-  render() {
+  render = () => {
     return (
       <div className="menu">
         <h1>Menu</h1>
@@ -14,5 +14,5 @@ export default class Menu extends Component {
         </div>
       </div>
     );
-  }
+  };
 }

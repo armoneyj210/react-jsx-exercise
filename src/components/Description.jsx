@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import logo from "../images/pizzaoven.jpg";
 export default class Description extends Component {
-  render() {
+  render = () => {
     return (
       <div id="description" className="description">
         <img src={logo} alt="pizza oven" />
@@ -21,5 +21,5 @@ export default class Description extends Component {
         </p>
       </div>
     );
-  }
+  };
 }

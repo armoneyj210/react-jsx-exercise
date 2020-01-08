@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 export default class MenuItem extends Component {
-  render() {
+  render = () => {
     return (
       <div className="menu-list">
         <div className="menu-item" id="menu">
@@ -17,5 +17,5 @@ export default class MenuItem extends Component {
         </div>
       </div>
     );
-  }
+  };
 }

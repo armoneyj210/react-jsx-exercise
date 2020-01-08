@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 export default class LocationList extends Component {
-  render() {
+  render = () => {
     return (
       <div className="location">
         <p>{this.props.locationItem.name}</p>
@@ -11,5 +11,5 @@ export default class LocationList extends Component {
         <p>{this.props.locationItem.phone}</p>
       </div>
     );
-  }
+  };
 }
